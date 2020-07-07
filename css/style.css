@@ -1,0 +1,234 @@
+body{
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Informasi*/
+
+.carousel-inner a{
+	color: white;
+}
+
+.text-center h2{
+	font-size: 35px;
+}
+
+/*Sambutan Bupati*/
+
+.cont-bupati p, .cont-wabupati p{
+	width: 900px;
+}
+
+.cont-bupati h1, .cont-wabupati h1{
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.cont-bupati h2, .cont-wabupati h2{
+	font-size:28px;
+}
+
+.clear{
+	clear: left;
+}
+
+.cont-bupati img{
+	float: left;
+}
+
+.cont-bupati{
+	margin-bottom: 80px;
+	margin-left: 50px;
+
+}
+
+.cont-wabupati img{
+	float: left;
+	margin-left: 50px;
+}
+
+.text-center{
+	margin-bottom: 50px;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.kata-sambutan{
+	background-color: white;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
+	border-radius: 10%;
+	height: 850px;
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+
+/*Visi Misi*/
+.cont-visimisi{
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
+	border-radius: 70px;
+	background-color: #0e123e;
+	height: 460px;
+	color: white;
+	margin-top: 30px;
+	padding: 70px 70px 0px 70px;
+}
+
+.txt-visimisi{
+	text-align: center;
+	padding-top: 50px;
+}
+
+/*Dinas*/
+
+.dinas a{
+	text-decoration: none;
+	background-color: #E96C35;
+	color: white;
+	padding: 6px 6px;
+	border: 1px solid white;
+	border-radius: 50px;
+	font-size: 15px;
+}
+
+.dinas img{
+	width: 250px;
+}
+
+.dinas-hima{
+	padding-bottom: 30px;
+}
+
+.cont-dinas{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
+	border-radius: 10%;
+	height: 850px;
+	padding: 0px 20px;
+}
+
+.dinas{
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* Footer */
+footer li{
+	font-size: 20px;
+}
+
+.footer-copyright{
+	font-size: 15px;
+}
+
+.ftr{
+	height: 150px;	
+}
+
+/*-------STRUKTURAL HIMA-------*/
+
+/*BG CONTAINER STRUKTURAL*/
+.bg-container-struktural{
+	width: 100%;
+	height: 640px;
+	text-align:center;
+}
+
+.h1-top{
+	padding-top: 15%;
+}
+
+.bg-container-struktural h1{
+	letter-spacing: 4px;
+}
+
+/*CONTENT STRUKTURAL*/
+.content-struktural{
+	height: 450px;
+	margin: 0px 150px 0px 150px;
+}
+
+.group{
+	
+	box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	width: 25%;
+	text-align: center;
+	padding:50px 30px 50px 30px;
+}
+
+.gr-mid{
+	position: absolute;
+	margin-left: 26%;
+	color: white;
+	background-color: #0e123e;
+
+}
+
+.gr{
+	color: #0e123e;
+	margin-top: 80px;
+}
+
+.gr-left{
+	float: left;
+}
+
+.gr-right{
+	float: right;
+}
+
+/*CAROUSEL STRUKTURAL*/
+
+.carousel-struktural h1{
+	color: #0e123e;
+	font-size: 50px;
+}
+
+.position-str{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.position-str img{
+	width: 300px;
+}
+
+.str{
+	text-align: center;
+	width: 50%;
+}
+
+.str h2{
+	font-size: 25px;
+}
+
+.move-left{
+	padding-left: 100px;
+}
+
+.move-right{
+	padding-right: 100px;
+}
+
+.marg{
+	margin-top: 150px;
+}
