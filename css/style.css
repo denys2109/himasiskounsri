@@ -200,7 +200,6 @@ footer li{
 
 .carousel-struktural h1{
 	color: #0e123e;
-	font-size: 50px;
 }
 
 .position-str{
@@ -232,3 +231,43 @@ footer li{
 .marg{
 	margin-top: 150px;
 }
+
+/*CONTACT*/
+.bg-contact{
+	/*text-align: center;*/
+	color: white;
+}
+
+.box-contact{
+	text-align: center;
+	border: 2px solid white;
+	margin: 0px 250px;
+	padding: 20px 40px 30px 40px;
+	border-radius: 25px;
+}
+
+.box-medsos{
+	display: flex;
+}
+
+.box-hima{
+	margin: 0 auto;
+}
+
+.txt-medsos{
+	margin-bottom: 50px;
+}
+
+.ic{
+	margin-bottom: 20px;
+}
+
+.box-maps{
+	border: 2px solid white;
+	margin-top: 5px;
+	margin-right: 300px;
+	margin-left: 300px;
+	border-radius: 25px;
+}
+
+
