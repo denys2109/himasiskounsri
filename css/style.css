@@ -106,10 +106,10 @@ a{
 }
 
 .dinas img{
-	width: 250px;
+	width: 150px;
 }
 
-.dinas-hima{
+.dinas-hima{	
 	padding-bottom: 30px;
 }
 
@@ -120,7 +120,7 @@ a{
 	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
 	border-radius: 10%;
 	height: 850px;
-	padding: 0px 20px;
+	padding: 50px 20px 0px 20px;
 }
 
 .dinas{
@@ -270,4 +270,262 @@ footer li{
 	border-radius: 25px;
 }
 
+/*DINAS*/
+.cover-dinas{
+	background-size: cover;
+	height: 640px;
+	width: 100%;
+}
 
+.transparent-dinas{
+	background-color: rgba(14, 18, 62, 0.5); 
+	height: 640px;
+}
+
+.size-icon-dinas{
+	width: 170px;
+	margin-bottom: 10px;
+}
+
+.header-dinas{
+	padding-top: 10%;
+	color: white;
+}
+
+.header-dinas h1{
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
+.size-icon-dinas-desc{
+	margin: 20px 0px;
+	width: 250px;
+}
+
+.size-h1-desc{
+	font-size: 45px;
+}
+
+.desc-dinas-marg{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.line-height-desc{
+	line-height: 35px;
+}
+
+.box-desc-dinas{
+	color: white;
+	border: 1px solid #0e123e;
+	background-color: #0e123e;
+	border-radius: 25px;
+	padding: 40px 50px;
+	box-shadow: 20px 20px rgba(14, 18, 62, 0.3);
+	margin-bottom: 100px;
+}
+
+.struktural-dinas{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.struktural-dinas-kadin img{
+	margin: 0 auto;
+}
+
+.group-dinas{
+	display: flex;
+}
+
+.struktural-dinas-staff img{
+	margin: 0 auto;
+	width: 300px;
+}
+
+/*PROKER*/
+.content-proker{
+	margin:0px 50px; 
+	padding: 100px 0px;
+}
+
+.txt-proker-box{
+	color: white;
+	background-color: #0e123e;
+	padding: 30px 0px;
+	margin-bottom:50px;
+	border-radius: 30px;
+	font-size: 50px;
+}
+
+.box-content-proker{
+	padding: 40px 50px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.box-content-proker h2{
+	font-size:40px;
+	color: #0e123e;
+	margin-bottom: 10px;
+}
+
+.owner-proker{
+	display: flex;
+	color: grey;
+}
+
+.box-content-proker img{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.box-content-proker p{
+	font-size: 20px;
+}
+
+.logo-tanggal h3{
+	background-color: #0e123e;
+	width: 100px;
+	padding: 5px 20px;
+	margin: 0;
+}
+
+.logo-tanggal h2{
+	background-color: #7b81a1;
+	width: 100px; 
+	padding: 15px 20px;
+}
+
+.logo-tanggal{
+	float: left;
+	text-align: center;
+	color: white;
+	padding-right: 30px;
+}
+
+.logo-owner{
+	padding-right: 10px;
+}
+
+/*PROKER DINAS*/
+.content-proker-dinas{
+	margin:0px 50px; 
+	padding-bottom: 100px;
+}
+
+.box-content-proker-dinas{
+	padding: 40px 50px;
+	border-radius: 0px 0px 25px 25px;
+	background-color: white;
+}
+
+.box-content-proker-dinas h2{
+	font-size:40px;
+	color: #0e123e;
+	margin-bottom: 10px;
+}
+.box-content-proker-dinas img{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.box-content-proker-dinas p{
+	font-size: 20px;
+}
+
+.group-foto{
+	display: flex;
+}
+
+.foto-proker{
+	width: 25%;
+}
+
+.foto-proker img{
+	width: 100%;
+}
+
+.ft-awal{
+	margin: 0px 2px 5px 0px;
+}
+
+.ft-akhir{
+	margin: 0px 0px 5px 2px;
+}
+
+.ft-isi{
+	margin: 0px 2px 5px 2px;
+}
+
+.space-icon{
+	margin-right: 5px;
+}
+
+.see-post{
+	color: #0e123e;
+	margin-bottom: 50px;
+}
+
+.informasi-lain h2{
+	color: #0e123e;
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+.informasi-lain h5{
+	color: grey;
+}
+
+.informasi-lain img{
+	float: left;
+	width: 30%;
+	margin-right: 30px;
+}
+
+/*LOGO KABINET*/
+.cont-makna{
+	margin:0px 50px; 
+	padding-bottom: 100px;
+}
+
+.box-deskripsi{
+	margin-top: 60px;
+	padding: 40px 50px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.cont-header-makna img{
+	width: 30%;
+	margin: 10px 0px;
+}
+
+.cont-header-makna{
+	text-align: center;
+}
+
+.cont-header-makna h1{
+	color: #0e123e;
+	letter-spacing: 5px;
+	padding-top: 35px;
+	line-height: 60px;
+}
+
+.text-top{
+	margin-bottom: 20px;
+}
+
+.text-mid{
+	margin: 20px 0px;
+}
+
+.box-deskripsi h3{
+	font-size: 40px;
+	margin-bottom: 30px;
+	color: #0e123e;
+}
+
+.box-deskripsi h4{
+	color: #0e123e;
+}
