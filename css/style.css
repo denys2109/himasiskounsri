@@ -1,3 +1,6 @@
+main{
+	background:linear-gradient(to bottom, rgba(232, 232, 232, 0.4), rgba(255, 255, 255), rgba(14, 18, 62));}
+
 body{
 	font-family: "Lato", sans-serif;
 	margin: 0;
@@ -30,10 +33,6 @@ a{
 
 /*Sambutan Bupati*/
 
-.cont-bupati p, .cont-wabupati p{
-	width: 900px;
-}
-
 .cont-bupati h1, .cont-wabupati h1{
 	font-size: 30px;
 	padding-top: 30px;
@@ -43,18 +42,21 @@ a{
 	font-size:28px;
 }
 
+.cont-bupati p, .cont-wabupati p{
+	padding: 0 5%;
+}
+
 .clear{
 	clear: left;
 }
 
-.cont-bupati img{
-	float: left;
-}
-
 .cont-bupati{
 	margin-bottom: 80px;
-	margin-left: 50px;
+}
 
+.cont-bupati img{
+	float: left;
+	margin-left: 50px;
 }
 
 .cont-wabupati img{
@@ -71,10 +73,11 @@ a{
 .kata-sambutan{
 	background-color: white;
 	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
-	border-radius: 10%;
-	height: 850px;
-	padding: 0px 50px;
+	border-radius: 70px;
+	padding: 0px 5% 80px 5%;
 	margin-top: 30px;
+	margin-right: 150px; 
+	margin-left: 150px;
 }
 
 /*Visi Misi*/
@@ -82,10 +85,11 @@ a{
 	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
 	border-radius: 70px;
 	background-color: #0e123e;
-	height: 460px;
 	color: white;
 	margin-top: 30px;
-	padding: 70px 70px 0px 70px;
+	padding: 70px;
+	margin-right: 150px; 
+	margin-left: 150px; 
 }
 
 .txt-visimisi{
@@ -106,7 +110,8 @@ a{
 }
 
 .dinas img{
-	width: 150px;
+	width: 50%;
+	margin: 20px auto;
 }
 
 .dinas-hima{	
@@ -120,7 +125,9 @@ a{
 	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0);
 	border-radius: 10%;
 	height: 850px;
-	padding: 50px 20px 0px 20px;
+	padding: 50px 20px;
+	margin: 0 100px; 
+	margin-top: 20px;
 }
 
 .dinas{
@@ -132,7 +139,7 @@ a{
 
 /* Footer */
 footer li{
-	font-size: 20px;
+	font-size: 40%;
 }
 
 .footer-copyright{
@@ -140,7 +147,20 @@ footer li{
 }
 
 .ftr{
-	height: 150px;	
+	/* height: 150px;	 */
+}
+
+.ftr-left {
+	float: left;
+}
+.ftr-left img{
+	width: 100px; 
+	float: left; 
+	margin: 0 20px 0 40px;
+}
+
+.ftr-rgt {
+	/* margin-left: 60px; */
 }
 
 /*-------STRUKTURAL HIMA-------*/
@@ -528,4 +548,66 @@ footer li{
 
 .box-deskripsi h4{
 	color: #0e123e;
+}
+
+@media only screen and (max-width: 768px){
+	/*Sambutan Bupati*/
+	.kata-sambutan{
+		margin: 50px 50px 0 50px;
+	}
+
+	.cont-bupati p, .cont-wabupati p{
+
+	}
+
+	.cont-bupati h1, .cont-wabupati h1{
+		margin: 0 5%;
+	}
+
+	.cont-bupati h2, .cont-wabupati h2{
+		margin: 0 5%;
+	}
+
+	
+	/* Visi Misi */
+
+	.cont-visimisi {
+		margin: 0 50px;
+	}
+
+	/* Dinas */
+	.cont-dinas {
+		margin: 0 50px; 
+	}
+
+	/* Footer */
+
+	.ftr-left {
+		margin: 0 ;
+		text-align: left;
+	}
+	.ftr-left img{
+		padding: 0 auto;
+		margin: 0 0 0 200px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	/*Sambutan Bupati*/
+	.kata-sambutan{
+		padding: 0px 5% 50px 5%;
+	}
+
+	/* Visi Misi */
+
+	.cont-visimisi {
+		padding: 50px;
+	}
+
+	/* Footer */
+
+	.ftr-left img{
+		padding: 0 auto;
+		margin: 0 10%;
+	}
 }
